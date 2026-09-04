@@ -15,9 +15,6 @@ def Fshape(contour):
     _, _, w, h = cv2.boundingRect(contour)
     aspect_ratio = max(w, h) / min(w, h)
 
-    if len(verti) == 3:
-        return "triangle"
-
     if len(verti) == 4:
         if aspect_ratio <= 1.2:
             #print("square")
@@ -103,6 +100,8 @@ for countour in contours:
     cv2.rectangle(image,(x, y),(x+w, y+h),(0, 0, 0),2,)
   
     cv2.putText(image,shape,(x, y-10),cv2.FONT_HERSHEY_SIMPLEX,0.6,(0, 0, 0),2,)
+
+print("total no. of casuality",total_casuality)
    
 
 cv2.imwrite("out.png", image)
