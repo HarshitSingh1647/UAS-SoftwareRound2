@@ -75,7 +75,7 @@ for i in contours:
     cv2.putText(image,shape,(x, y-10),cv2.FONT_HERSHEY_SIMPLEX,0.6,(0, 0, 0),2,)
    
 
-cv2.imwrite("out.png", image)
+cv2.imwrite("photos/output/shape_detect.png", image)
 
 
    
