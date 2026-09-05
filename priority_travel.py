@@ -145,7 +145,8 @@ if casualities:
 
 
 
-cv2.imwrite("connected.png", image)
+
+cv2.imwrite("photos/output/connected.png", image)
 
 
    
