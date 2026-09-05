@@ -27,7 +27,8 @@ What have i learnt?
 { (1)algorithm to find path (i saw A* algo on youtube )  
   (2)heapq library and heap  
   (3)managing this github repo with my commandline  
-}  
+}
+6)I also learnt how to properly use AI , i have learnt most of the things using claude , didn't waste a lot of time on youtube
 
   
 AB ITNI MEHNAT KE BAAD REJECT MAT KARNA PLEASE 👉👈 (ALREADY IIT NA MILNE KA DUKH HAI)
