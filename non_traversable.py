@@ -13,4 +13,4 @@ non_mask = cv2.bitwise_or(obstacle_mask,water_mask)
 cv2.imshow("non_mask", cv2.bitwise_not(non_mask))
 cv2.waitKey(0)
 
-cv2.imwrite("non_mask.png", cv2.bitwise_not(non_mask))
+cv2.imwrite("photos/output/non_traversable.png", cv2.bitwise_not(non_mask))
