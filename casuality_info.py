@@ -104,7 +104,7 @@ for countour in contours:
 print("total no. of casuality",total_casuality)
    
 
-cv2.imwrite("out.png", image)
+cv2.imwrite("photos/output/casuality_info.png", image)
 
 
    
