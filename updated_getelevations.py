@@ -39,7 +39,7 @@ def classify_shape(contour):
         return "star"
 
     circularity = 4 * np.pi * area / (peri * peri)
-    if circularity >= 0.7 and aspect_ratio <= 1.8:
+    if circularity >= 0.7 and aspect_ratio <= 1.2:
         return "circle"
 
     return None
