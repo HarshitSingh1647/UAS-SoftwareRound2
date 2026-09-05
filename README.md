@@ -6,7 +6,9 @@ Expected output-
 
 3)elevation_mask.py - gives seperate masks of 4 different elevation levels (not that useful , made only for learning purpose)  
 4)get_elevation.py - first it detects all the elevation contours and puts them in a list then it detects the shapes and using a loop it tries to see if the shape center lies in any of the elevation contours (according to me this should work but it fails some of the times).  
-5)priority_travel.py - it sorts all the casualites on basis of priority score and then connects them with straight line  
+5)priority_travel.py - it sorts all the casualites on basis of priority score and then connects them with straight line    
+
+6)main.py - gives combined output of all the above
 
 logbook link - 
   
